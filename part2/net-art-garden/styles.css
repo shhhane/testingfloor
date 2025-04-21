@@ -1,0 +1,21 @@
+body{
+    background-color: pink;
+}
+
+.container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+}
+
+img{
+    width: 100px;
+    padding: 10px;
+}
+
+img:hover{
+    scale: 1.25;
+}
